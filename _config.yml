@@ -1,6 +1,6 @@
 ### your site title here
 
-title: Your Name
+title: Avtandil Pangani
 description: subtitle | affiliations | motto
 
 baseurl: /gradfolio #name of GitHub repository
@@ -16,7 +16,7 @@ paginate_path: /blog/page:num/
 twitter: "#"
 linkedin: "#"
 stackoverflow: "#"
-github: "#"
+github: "avtotrainer"
 researchgate: "#"
 orcid: "#"
 quora: "#"
