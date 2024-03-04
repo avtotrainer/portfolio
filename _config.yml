@@ -1,7 +1,7 @@
 ### your site title here
 
-title: Avtandil Pangani
-description: subtitle | affiliations | motto
+title: ᲐᲕᲗᲐᲜᲓᲘᲚ ᲤᲐᲜᲒᲐᲜᲘ
+description: კომპიუტერული მეცნიერებების მასწავლებელი, ტრენერი
 
 baseurl: /gradfolio #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -48,12 +48,12 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - ikaro.md
+      - tetri.md
+      - club_ikaro.md
+      - club_ruispiri.md
+      - club_matani.md
+      - club_sakobiano.md
 
 sass:
   sass_dir: /assets/css/_sass

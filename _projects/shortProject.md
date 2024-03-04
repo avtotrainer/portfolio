@@ -1,33 +1,34 @@
 ---
 layout: post
-title: Short Project
-description: description of the short project which is long enough
+title: მოკლე გეგმა
+description: ახლო გეგმების აღწერა მოკლედ
 ---
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+მაგალითი აღებულია აქედან [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
 
-H1 Header
+H1 ᲡᲐᲗᲐᲣᲠᲘ
 ============
 
-Paragraphs are separated by a blank line.
+აბზაცები ერთმანეთისგან გამოიყოფა ცარიელი ხაზიც, ანუ აბზაცის დამთავრების მერე ორჯერ უნდა დავაჯიროთ ენთერს.
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+აბზაცში შეიძლება გამოვიყენოთ. *Italic*, **bold**, და `monospace`. 
 
-  * this one
-  * that one
-  * the other one
+სია შეილება ასე გავაკეთოთ:
 
-Note that the actual text
-content starts at 4-columns in.
+  * ეს პირველი
+  * ეს მეორე
+  * ეს მესამე
 
-> Block quotes are
-> written like so.
+ნოუთები კეთდება, თუ ტექსტს დავიწყებთ 4 პრობელის მერე
+
+
+> ნოუთის ბლოკი არის
+> ამდაგვარად დაწერილი.
 >
-> They can span multiple paragraphs,
-> if you like.
+> ის შეიძლება შეიცავდეს რამოდენიმე პარაგრაფს, 
+> თუ ეს თქვენ გსურთ.
 
 
-H2 Header
+H2 ᲡᲐᲗᲐᲣᲠᲘ
 ------------
 
 Here's a numbered list:
