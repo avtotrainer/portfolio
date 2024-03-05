@@ -1,7 +1,7 @@
 ### your site title here
 
 title: ᲐᲕᲗᲐᲜᲓᲘᲚ ᲤᲐᲜᲒᲐᲜᲘ
-description: კომპიუტერული მეცნიერებების მასწავლებელი, ტრენერი
+description: კომპიუტერული  მეცნიერებების მასწავლებელი,| ტრენერი
 
 baseurl: /gradfolio #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
@@ -13,16 +13,27 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "#"
-linkedin: "#"
-stackoverflow: "#"
+# twitter: "#"
+# linkedin: "#"
+# stackoverflow: "#"
 github: "avtotrainer"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+facebook: "/aphangani"
 
+ 
+navigation:
+  - title: ᲛᲗᲐᲕᲐᲠᲘ 
+    url: /
+  - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
+    url: /projects/
+  - title: ᲑᲚᲝᲒᲘ
+    url: /blog/
+  - title: ᲐᲠᲥᲘᲕᲘ
+    url: /archive/
+  
 
 # Markdown
 highlighter: rouge
