@@ -22,10 +22,14 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Noto Serif Georgian';
-  font-weight: bold;
+ // font-weight: bold;
   line-height: 1.8;
   margin: 0;
   text-transform: inherit;
+}
+h3 {
+  font-weight:400;
+  font-variation-settings: "wdth" 80; 
 }
 
 
