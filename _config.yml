@@ -27,10 +27,10 @@ facebook: "/aphangani"
 navigation:
   - title: ᲛᲗᲐᲕᲐᲠᲘ 
     url: /
-  - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
-    url: /projects/
-  - title: ᲡᲢᲐᲢᲘᲔᲑᲘ
-    url: /articles
+  # - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
+    # url: /projects/
+  # - title: ᲡᲢᲐᲢᲘᲔᲑᲘ
+    # url: /articles
   - title: ᲑᲚᲝᲒᲘ
     url: /blog/
   - title: ᲐᲠᲥᲘᲕᲘ
