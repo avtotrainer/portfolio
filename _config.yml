@@ -3,7 +3,7 @@
 title: ᲐᲕᲗᲐᲜᲓᲘᲚ ᲤᲐᲜᲒᲐᲜᲘ
 description: კომპიუტერული  მეცნიერებების მასწავლებელი, ტრენერი
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl: #name of GitHub repository
 url: "" #custom url to be used instead of GitHub repository
 email: #
 
@@ -23,9 +23,9 @@ github: "avtotrainer"
 # instagram: "#"
 facebook: "/aphangani"
 
- 
+
 navigation:
-  - title: ᲛᲗᲐᲕᲐᲠᲘ 
+  - title: ᲛᲗᲐᲕᲐᲠᲘ
     url: /
   # - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
     # url: /projects/
@@ -35,7 +35,7 @@ navigation:
     url: /blog/
   - title: ᲐᲠᲥᲘᲕᲘ
     url: /archive/
-  
+
 
 # Markdown
 highlighter: rouge
