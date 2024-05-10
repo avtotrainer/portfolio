@@ -29,10 +29,14 @@ navigation:
     url: /
   # - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
     # url: /projects/
-  # - title: ᲡᲢᲐᲢᲘᲔᲑᲘ
-    # url: /articles
+  - title: ᲡᲢᲐᲢᲘᲔᲑᲘ
+    url: /articles
   - title: ᲑᲚᲝᲒᲘ
     url: /blog/
+  - title: ᲞᲘᲗᲝᲜᲘ
+    url: /python/
+  - title: ᲒᲐᲠᲔᲛᲝ
+    url: /env/
   - title: ᲐᲠᲥᲘᲕᲘ
     url: /archive/
 
@@ -72,6 +76,15 @@ collections:
     output: true
     permalink: /articles/:name/
     :working_dir: dir
+  env:
+    output: true
+    permalink: /env/:name/
+  python:
+    output: true
+    permalink: /python/:name/
+    order:
+      - venv.md
+      - pip.md
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
