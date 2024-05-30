@@ -1,7 +1,7 @@
 ---
-title:
+title: ᲒᲐᲠᲔᲛᲝ
 layout: default
-permalink: /env/
+permalink: /envi/
 published: true
 ---
 
@@ -11,15 +11,15 @@ published: true
 	<div class="gallery">
 
 
-  {% for article in site.env %}
+  {% for article in site.envi %}
 
-  {% if env.redirect %}
+  {% if envi.redirect %}
   <div class="projectTile">
-          <a href="{{ env.redirect }}" target="_blank">
+          <a href="{{ envi.redirect }}" target="_blank">
           <span>
-              <h2>{{ env.title }}</h2>
+              <h2>{{ envi.title }}</h2>
               <br/>
-              <p>{{ env.description }}</p>
+              <p>{{ envi.description }}</p>
           </span>
           </a>
   </div>
@@ -29,9 +29,9 @@ published: true
   <div class="projectTile">
           <a href="{{ article.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
-              <h2>{{ env.title }}</h2>
+              <h2>სათაური: {{ envi.title }}</h2>
               <br/>
-              <p>{{ env.description }}</p>
+              <p>აღწერა: {{ envi.description }}</p>
           </span>
           </a>
   </div>

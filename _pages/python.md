@@ -1,5 +1,5 @@
 ---
-title: პროგრამირება პითონზე
+title: ᲞᲠᲝᲒᲠᲐᲛᲘᲠᲔᲑᲐ  ᲞᲘᲗᲝᲜᲖᲔ
 layout: default
 permalink: /python/
 published: true

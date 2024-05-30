@@ -36,7 +36,7 @@ navigation:
   - title: ᲞᲘᲗᲝᲜᲘ
     url: /python/
   - title: ᲒᲐᲠᲔᲛᲝ
-    url: /env/
+    url: /envi/
   - title: ᲐᲠᲥᲘᲕᲘ
     url: /archive/
 
@@ -76,9 +76,9 @@ collections:
     output: true
     permalink: /articles/:name/
     :working_dir: dir
-  env:
+  envi:
     output: true
-    permalink: /env/:name/
+    permalink: /envi/:name/
   python:
     output: true
     permalink: /python/:name/
