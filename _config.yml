@@ -3,8 +3,8 @@
 title: ᲐᲕᲗᲐᲜᲓᲘᲚ ᲤᲐᲜᲒᲐᲜᲘ
 description: კომპიუტერული  მეცნიერებების მასწავლებელი, ტრენერი
 
-baseurl: #name of GitHub repository
-url:  #custom url to be used instead of GitHub repository
+baseurl: ""#name of GitHub repository
+url: "" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
