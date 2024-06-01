@@ -1,5 +1,5 @@
 ---
-title: ᲒᲐᲠᲔᲛᲝ
+title: ᲒᲐᲠᲔᲛᲝᲔᲑᲐᲜᲘ
 layout: default
 permalink: /envi/
 published: true
@@ -13,13 +13,13 @@ published: true
 
   {% for article in site.envi %}
 
-  {% if envi.redirect %}
+  {% if article.redirect %}
   <div class="projectTile">
-          <a href="{{ envi.redirect }}" target="_blank">
+          <a href="{{ article.redirect }}" target="_blank">
           <span>
-              <h2>{{ envi.title }}</h2>
+              <h2>{{ article.title }}</h2>
               <br/>
-              <p>{{ envi.description }}</p>
+              <p>{{ article.description }}</p>
           </span>
           </a>
   </div>
@@ -29,9 +29,9 @@ published: true
   <div class="projectTile">
           <a href="{{ article.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
-              <h2>სათაური: {{ envi.title }}</h2>
+              <h2>{{ article.title }}</h2>
               <br/>
-              <p>აღწერა: {{ envi.description }}</p>
+              <p>{{ article.description }}</p>
           </span>
           </a>
   </div>

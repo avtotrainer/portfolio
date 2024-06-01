@@ -4,7 +4,7 @@ title: ᲐᲕᲗᲐᲜᲓᲘᲚ ᲤᲐᲜᲒᲐᲜᲘ
 description: კომპიუტერული  მეცნიერებების მასწავლებელი, ტრენერი
 
 baseurl: #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url:  #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
@@ -35,7 +35,7 @@ navigation:
     url: /blog/
   - title: ᲞᲘᲗᲝᲜᲘ
     url: /python/
-  - title: ᲒᲐᲠᲔᲛᲝ
+  - title: ᲒᲐᲠᲔᲛᲝᲜᲘ﻿
     url: /envi/
   - title: ᲐᲠᲥᲘᲕᲘ
     url: /archive/
@@ -76,15 +76,18 @@ collections:
     output: true
     permalink: /articles/:name/
     :working_dir: dir
-  envi:
-    output: true
-    permalink: /envi/:name/
   python:
     output: true
     permalink: /python/:name/
     order:
       - venv.md
       - pip.md
+  envi:
+    output: true
+    permalink: /envi/:name/
+    order:
+      - this_site.me
+      - szh.md  
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
