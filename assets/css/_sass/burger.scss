@@ -19,5 +19,25 @@
     #menu.open {
         display: block; /* Show the menu links when open */
     }
+
+/* Override scroll styles for vertical menu */
+.scroll {
+    white-space: normal; /* Allow links to break onto new lines */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+/* Styles for the links inside the menu */
+.scroll a {
+    display: block; /* Make each link a block element to stack vertically */
+    padding: 10px 15px; /* Add some padding for better spacing */
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set the text color */
+}
+
+.scroll a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+    
 }
 
