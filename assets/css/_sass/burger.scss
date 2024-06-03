@@ -1,0 +1,23 @@
+/* Styles for the burger menu */
+.menu-toggle {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Initially hidden, shown on smaller screens */
+}
+
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the burger menu icon */
+    }
+
+    #menu {
+        display: none; /* Hide the menu links by default */
+    }
+
+    #menu.open {
+        display: block; /* Show the menu links when open */
+    }
+}
+

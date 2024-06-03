@@ -1,4 +1,5 @@
-<div class="links scroll">
+<div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+<div class="links scroll" id="menu">
     {% for link in site.navigation%}
         <a class="noto-serif-georgian-1" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
     {% endfor %}
