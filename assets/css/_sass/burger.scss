@@ -25,6 +25,8 @@
     white-space: normal; /* Allow links to break onto new lines */
     overflow-x: hidden; /* Hide horizontal scroll */
     overflow-y: auto; /* Enable vertical scroll if needed */
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
 }
 
 /* Styles for the links inside the menu */
@@ -32,11 +34,11 @@
     display: block; /* Make each link a block element to stack vertically */
     padding: 10px 15px; /* Add some padding for better spacing */
     text-decoration: none; /* Remove underline from links */
-    color: #000; /* Set the text color */
+    // color: #000; /* Set the text color */
 }
 
 .scroll a:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
+    // background-color: #f0f0f0; /* Change background color on hover */
 }
     
 }
