@@ -86,7 +86,7 @@ collections:
     output: true
     permalink: /envi/:name/
     order:
-      - this_site.me
+      - this_site.md
       - szh.md  
 sass:
   sass_dir: /assets/css/_sass
