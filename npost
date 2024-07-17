@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# შეოწმება არგუმენტზე
+if [ $# -eq 0 ]; then
+  echo "გამოიყენება: $0 <პოსტის დასახელება>"
+  exit 1
+fi
+
+# ვიღებთ მიმდინარე თარიღს და დროს
+CURRENT_DATE=$(date +"%Y-%m-%d")
+
+# პოსტის დასახელებიდან ვაგენერირებთ სახელს
+TITLE=$@
+FILENAME="${CURRENT_DATE}-$(echo "$TITLE" | tr ' ' '-' | tr '[:upper:]' '[:lower:]').md"
+
+# პოსტების დირექტორია
+POSTS_DIR="_posts"
+
+# ვამოწმებთ არის თუ არა _posts დირექტორია, თუ არა, მაშინ ვქმნით მას
+if [ ! -d "$POSTS_DIR" ]; then
+  mkdir -p "$POSTS_DIR"
+fi
+
+# ფაილის სრულ ი გზა
+FULL_PATH="${POSTS_DIR}/${FILENAME}"
+
+# პოსტის შაბლონის შექმნა
+cat <<EOL > $FULL_PATH
+---
+title: "$TITLE"
+date: "$CURRENT_DATE"
+author: "Ваше Имя"
+tags: []
+---
+
+# $TITLE
+
+თქვენი ტექსტი დაწერეთ აქ...
+
+EOL
+
+echo "პოსტის შაბლონი შექმნილია: $FULL_PATH"
+
