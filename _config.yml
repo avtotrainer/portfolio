@@ -35,7 +35,9 @@ navigation:
     url: /blog/
   - title: ᲞᲘᲗᲝᲜᲘ
     url: /python/
-  - title: ᲒᲐᲠᲔᲛᲝᲜᲘ﻿
+  - title: RedHat
+    url: /redhat/
+  - title: ᲒᲐᲠᲔᲛᲝᲜᲘ
     url: /envi/
   - title: ᲐᲠᲥᲘᲕᲘ
     url: /archive/
