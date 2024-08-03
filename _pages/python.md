@@ -1,19 +1,18 @@
 ---
-title: ᲞᲠᲝᲒᲠᲐᲛᲘᲠᲔᲑᲐ  ᲞᲘᲗᲝᲜᲖᲔ
+title:
 layout: default
 permalink: /python/
 published: true
 ---
 
-
 <div class="ProjectContainer">
 
-	<div class="gallery">
+    <div class="gallery">
 
+{% for article in site.python %}
 
-  {% for article in site.python %}
+{% if article.redirect %}
 
-  {% if article.redirect %}
   <div class="projectTile">
           <a href="{{ article.redirect }}" target="_blank">
           <span>
@@ -24,7 +23,7 @@ published: true
           </a>
   </div>
 
-  {% else %}
+{% else %}
 
   <div class="projectTile">
           <a href="{{ article.url | prepend: site.baseurl | prepend: site.url }}">
@@ -36,10 +35,10 @@ published: true
           </a>
   </div>
 
-  {% endif %}
+{% endif %}
 
-  {% endfor %}
+{% endfor %}
 
-	</div>
+    </div>
 
 </div>

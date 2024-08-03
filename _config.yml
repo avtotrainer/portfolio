@@ -27,20 +27,18 @@ facebook: "/aphangani"
 navigation:
   - title: ᲛᲗᲐᲕᲐᲠᲘ
     url: /
-  # - title: ᲞᲠᲝᲔᲥᲢᲔᲑᲘ
-    # url: /projects/
   - title: ᲡᲢᲐᲢᲘᲔᲑᲘ
     url: /articles
   - title: ᲑᲚᲝᲒᲘ
-    url: /blog/
+    url: /blog
   - title: ᲞᲘᲗᲝᲜᲘ
-    url: /python/
-  - title: RedHat
-    url: /redhat/
+    url: /python
+  - title: ლინუქსი
+    url: /linux
   - title: ᲒᲐᲠᲔᲛᲝᲜᲘ
-    url: /envi/
+    url: /envi
   - title: ᲐᲠᲥᲘᲕᲘ
-    url: /archive/
+    url: /archive
 
 
 # Markdown
@@ -77,7 +75,6 @@ collections:
   articles:
     output: true
     permalink: /articles/:name/
-    :working_dir: dir
   python:
     output: true
     permalink: /python/:name/
@@ -87,6 +84,12 @@ collections:
   envi:
     output: true
     permalink: /envi/:name/
+    order:
+      - this_site.md
+      - szh.md  
+  linux:
+    output: true
+    permalink: /linux/:name/
     order:
       - this_site.md
       - szh.md  

@@ -1,7 +1,7 @@
 ---
-title: Red
+title:
 layout: default
-permalink: /redhat/
+permalink: /linux/
 published: true
 ---
 
@@ -9,7 +9,7 @@ published: true
 
     <div class="gallery">
 
-{% for article in site.redhat %}
+{% for article in site.linux %}
 
 {% if article.redirect %}
 
